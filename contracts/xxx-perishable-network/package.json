@@ -8,20 +8,17 @@
     "lint": "eslint .",
     "test": "nyc mocha -t 0 test/*.js && cucumber-js"
   },
-  "keywords": [
-    "composer",
-    "composer-network"
-  ],
+
   "author": "labchain",
   "email": "lab@chainenergy.eu",
   "license": "Apache-2.0",
   "devDependencies": {
-    "composer-admin": "^0.20.6",
-    "composer-cli": "^0.20.6",
-    "composer-client": "^0.20.6",
-    "composer-common": "^0.20.6",
-    "composer-connector-embedded": "^0.20.6",
-    "composer-cucumber-steps": "^0.20.6",
+    "composer-admin": "^0.19.2",
+    "composer-cli": "^0.19.2",
+    "composer-client": "^0.19.2",
+    "composer-common": "^0.19.2",
+    "composer-connector-embedded": "^0.19.2",
+    "composer-cucumber-steps": "^0.19.2",
     "chai": "latest",
     "chai-as-promised": "latest",
     "cucumber": "^2.2.0",
